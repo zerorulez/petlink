@@ -119,21 +119,28 @@ export default function Page({ params }) {
             </div>
             <div className="flex-1 space-y-4">
               <h2 className="text-xl font-semibold">Pet Information</h2>
-              <ul className="space-y-2 capitalize">
+              <ul className="space-y-2">
                 <li>
-                  <strong>Name:</strong> {pet.name}
+                  <strong>Name:</strong>{" "}
+                  <span className="capitalize">{pet.name}</span>
                 </li>
                 <li>
-                  <strong>Breed:</strong> {pet.breed}
+                  <strong>Breed:</strong>{" "}
+                  <span className="capitalize">{pet.breed}</span>
                 </li>
                 <li>
-                  <strong>Age:</strong> {calculateAge(pet.birthday)}
+                  <strong>Age:</strong>{" "}
+                  <span className="capitalize">
+                    {calculateAge(pet.birthday)}
+                  </span>
                 </li>
                 <li>
-                  <strong>Color:</strong> {pet.color}
+                  <strong>Color:</strong>{" "}
+                  <span className="capitalize">{pet.color}</span>
                 </li>
                 <li>
-                  <strong>Gender:</strong> {pet.gender}
+                  <strong>Gender:</strong>{" "}
+                  <span className="capitalize">{pet.gender}</span>
                 </li>
                 <li>
                   <strong>Distinctive Features:</strong>{" "}
