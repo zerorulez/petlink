@@ -1,0 +1,17 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Rex",
+      "slug": "rex-112",
+      "breed": "Labrador Retriever",
+      "birthday": "10/10/2010",
+      "color": "Yellow",
+      "gender": "Male",
+      "distinctiveFeatures": "Blue collar, white spot on chest",
+      "phone": "(11) 98765-4321",
+      "email": "foundrex@email.com",
+      "location": "São Paulo, SP - Brazil"
+    }
+  ]
+}
