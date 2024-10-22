@@ -88,7 +88,9 @@ export default function Page() {
               <div className="bg-blue-100 rounded-full p-4 mb-4">
                 <span className="text-2xl font-bold text-blue-600">3</span>
               </div>
-              <p className="text-gray-600">Attach it to your pet's collar</p>
+              <p className="text-gray-600">
+                Attach it to your pet&apos;s collar
+              </p>
             </div>
           </div>
         </div>

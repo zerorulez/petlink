@@ -26,7 +26,7 @@ export default function Page({ params }) {
         setPet(data);
         setIsLoading(false);
       });
-  }, []);
+  }, [params.slug]);
 
   const generateQRCode = async () => {
     try {
