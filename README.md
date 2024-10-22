@@ -1,6 +1,6 @@
 # PetLink
 
-#### Video Demo: <URL HERE>
+#### Video Demo: [YouTube](https://www.youtube.com/watch?v=TFNV9jXEoL4)
 
 ## Project Overview
 
